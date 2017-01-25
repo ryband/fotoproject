@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.logo img {
+    height: 150px;
+}
+
+header  {
+    width: 80vw;
+    margin: 20px 10% auto;
+    text-align: center;
+
+}
+.menu > li {
+
+    display: inline-block;
+    position: relative;
+    /*text-align: center;*/
+    color: grey;
+    width: 20%;
+
+ }
+
+nav {
+    margin: 20px 0 auto;
+    text-align: center;
+
+    }
+
+ul.menu {
+    padding: 0;
+}
+.menu li {
+    list-style-type: none;
+    border: 1px solid lightgrey;
+
+}
+
+li {
+    margin-left: -4px;
+}
+/*ul
+{
+    width: 80vw;
+    margin: 20px 10vw auto;
+    text-align: center;
+    padding-left: 0;
+    /!*font-size: 0;*!/
+}*/
+
+li a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    display: block;
+    font-size: 20pt;
+    font-weight: 400;
+    /*text-align: left;*/
+    padding: 10px 30px 10px 30px;
+    font-family: 'Marck Script', cursive, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+}
+.menu a:hover {
+    color: darkgray;
+    background-color:  white;
+    }
+
+li>ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+li:hover ul {
+    display: block;
+}
+
+/****styles fo table****/
+
+.table-1 {
+    width: 80vw;
+    margin: 40px 10vw auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px solid lightgrey;
+    height: 7vh;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+tfoot {
+    font-weight: 700;
+}
+th {
+    background-color: ghostwhite;
+}
+
+tr:nth-child(2n) {
+    background-color: aliceblue;
+}
+tr:nth-child(1) {
+    background-color: white;
+}
